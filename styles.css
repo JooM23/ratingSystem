@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    width: 98%;
+    padding-bottom: 0.5rem;
+}
+
+.first-page, .second-page {
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    text-align: left; 
+    padding: 2%;
+    border-radius: 25px;
+    height: 400px; width: 400px;
+    margin: 8rem 0;
+}
+
+.second-page {
+    text-align: center;
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-dark {
+    height: 2.8rem;
+    font-size: 1rem;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 1.5rem;
+}
+
+.rating {
+    margin: 3px;
+}
+
+.rating:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.btn-secondary, .rating {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.btn-secondary:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.thankYou {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    height: 2.2rem;
+    font-size: 0.9rem;
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.heading2 {
+    margin-top: 2rem;
+}
+
+@media (max-width: 800px) and (min-width: 375px) {
+    
+    .icon1 {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    } 
+
+    p {
+        width: 90%;
+    } 
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p, h2 {
+        margin-left: 1rem;
+    }
+
+    #submit {
+        margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 1400px) and (min-width: 800px) {
+    
+    .icon1 {
+        margin-left: 1rem;
+    } 
+
+    .icon2 {
+        margin-top: 1rem;
+    }
+
+    p {
+        width: 95%;
+    } 
+
+    p, h2 {
+        margin-left: 1rem;
+    }
+
+    #submit {
+        margin-bottom: 1rem;
+    }
+  }
